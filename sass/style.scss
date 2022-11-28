@@ -106,9 +106,30 @@ ul li a:hover:before {
 justify-content: center;
 }
 .paragraph-aboutme{
-border:solid 2px;
-
+  padding: 18px;
+  margin:18px;
+  width: 30%;
 }
+.presentation{
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title-a-propos{
+width: 100%;
+}
+.title-a-propos h1{
+
+width: 15%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: 400;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-bottom: 4px solid #5a8aba;
+    width: 16%;
+}
+
 @import url(https://fonts.googleapis.com/css?family=Khula:700);
 
 .hidden {
