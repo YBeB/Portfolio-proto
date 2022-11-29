@@ -125,7 +125,6 @@ ul li a:hover:before {
 }
 
 .profil-picture {
-  border-radius: 900000px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -146,16 +145,11 @@ ul li a:hover:before {
 }
 
 .presentation {
-  text-align: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.title-a-propos {
-  width: 100%;
+  text-align: left;
+  font-family: 'Open Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .title-a-propos h1 {
-  width: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -165,11 +159,33 @@ ul li a:hover:before {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-weight: 400;
-  text-transform: uppercase;
-  font-size: 18px;
-  border-bottom: 4px solid #5a8aba;
-  width: 16%;
+  margin: 10px;
+}
+
+.bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.bar-title {
+  border-top: 5px solid #7fa2c4;
+  width: 200px;
+}
+
+.title-a-propos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 70px;
 }
 
 .hidden {
