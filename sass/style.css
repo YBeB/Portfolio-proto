@@ -127,6 +127,8 @@ ul li a:hover:before {
 .profil-picture {
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-box-shadow: rgba(127, 162, 196, 0.4) 5px 5px, rgba(127, 162, 196, 0.3) 10px 10px, rgba(127, 162, 196, 0.2) 15px 15px, rgba(127, 162, 196, 0.1) 20px 20px, rgba(127, 162, 196, 0.05) 25px 25px;
+          box-shadow: rgba(127, 162, 196, 0.4) 5px 5px, rgba(127, 162, 196, 0.3) 10px 10px, rgba(127, 162, 196, 0.2) 15px 15px, rgba(127, 162, 196, 0.1) 20px 20px, rgba(127, 162, 196, 0.05) 25px 25px;
 }
 
 .a-propos-div {
